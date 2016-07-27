@@ -5,3 +5,11 @@ Details can come later when we get closer to implementation
 Make the tickets about the features
 
 Think about dependencies in the workflow
+
+Enable Migrations - enable-migrations in package manager console
+
+add-migration {name}  use -force if you need to fix something
+
+update-Database to run the migration
+
+overriding conventions - can use data annotations or fluent api
