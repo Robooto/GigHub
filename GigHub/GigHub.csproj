@@ -251,6 +251,10 @@
     <Compile Include="Migrations\201608040352157_addingFollower.Designer.cs">
       <DependentUpon>201608040352157_addingFollower.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201608040403464_addingFollowerfix.cs" />
+    <Compile Include="Migrations\201608040403464_addingFollowerfix.Designer.cs">
+      <DependentUpon>201608040403464_addingFollowerfix.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\Attendance.cs" />
@@ -267,6 +271,7 @@
     <Compile Include="ViewModels\ForgotViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
     <Compile Include="ViewModels\GigFormViewModel.cs" />
+    <Compile Include="ViewModels\GigsViewModel.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\RegisterViewModel.cs" />
     <Compile Include="ViewModels\ResetPasswordViewModel.cs" />
@@ -316,7 +321,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Gigs.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
@@ -374,6 +379,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201608040352157_addingFollower.resx">
       <DependentUpon>201608040352157_addingFollower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201608040403464_addingFollowerfix.resx">
+      <DependentUpon>201608040403464_addingFollowerfix.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
