@@ -13,3 +13,5 @@ add-migration {name}  use -force if you need to fix something
 update-Database to run the migration
 
 overriding conventions - can use data annotations or fluent api
+
+Using expressions instead of magic strings (Not familiar with expressions with funcs)
